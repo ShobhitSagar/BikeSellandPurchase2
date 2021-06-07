@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="30dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Sell"
+            android:textColor="#fff"
+            android:background="#2196F3"
+            android:foreground="?attr/selectableItemBackground"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:onClick="sellBike"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Purchase"
+            android:textColor="#fff"
+            android:background="#2196F3"
+            android:foreground="?attr/selectableItemBackground"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
